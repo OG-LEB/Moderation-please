@@ -95,7 +95,6 @@ public class GameController : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0) && !makingGame)
             {
-                Debug.Log("YYYYY");
                 if (!isGameReady)
                 {
                     MakeAGame();
@@ -106,10 +105,6 @@ public class GameController : MonoBehaviour
                 }
 
             }
-            //if (makingGame)
-            //{
-            //    //Bar
-            //}
         }
     }
     private void ThrowGame()
